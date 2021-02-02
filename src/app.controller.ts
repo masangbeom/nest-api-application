@@ -9,4 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get('proton')
+  getProton(): string {
+    return this.appService.getProton();
+  }
 }
