@@ -1,5 +1,5 @@
 # Base Image
-FROM node:12.13-alpine
+FROM public.ecr.aws/f6n4q0p5/node12.13-alpine
 
 # Create App Directory
 RUN mkdir /app
